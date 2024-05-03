@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@100..900&display=swap');
+body{
+    font-family: Helvetica;
+    font-family: "Noto Sans Khmer", sans-serif;
+}
+h1{
+    margin-top: 2.5rem;
+    text-align: center;
+}
+h1 span{
+    color: rgb(255, 67, 67);
+}
+label{
+   
+    font-size: 20em;
+}
+
+button{
+    padding: 20px 45px;
+    margin: 0 1.5rem;
+    cursor: pointer;
+}
+.countnum{
+    height: 100vh;
+    text-align: center;
+}
+
+@media screen and (max-width: 450px){
+    h1{
+        font-size: 1.6em;
+        margin-top: -5rem;
+    }
+    .countnum{
+        margin-top: 40%;
+        height: 100vh;
+    }
+    label{
+   
+        font-size: 10em;
+    }
+    
+    button{
+        padding: 12px 20px;
+        margin: 0.5rem 1.1rem;
+        cursor: pointer;
+        border-radius: 7px;
+        border: none;
+        box-shadow: 1px 1px 2px black;
+    }
+    button:active{
+        background-color: #ff0c0c;
+    }
+}
+/* 390px */
+@media screen and (max-width: 390px){
+    h1{
+        font-size: 1.6em;
+        margin-top: -5rem;
+    }
+    .countnum{
+        margin-top: 40%;
+        height: 100vh;
+    }
+    label{
+   
+        font-size: 10em;
+    }
+    
+    button{
+        padding: 12px 15px;
+        margin: 0.5rem 0.9rem;
+        cursor: pointer;
+        border-radius: 7px;
+        border: none;
+        box-shadow: 1px 1px 2px black;
+    }
+    button:active{
+        background-color: #ff0c0c;
+    }
+}
